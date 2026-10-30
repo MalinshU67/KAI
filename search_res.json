@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="ru"><head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-P467CNK');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <title>ЭБС Лань</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimal-ui">
+
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="preload" href="/front/assets/fonts/materialicons.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/front/assets/fonts/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" href="/front/assets/fonts/Rainerv03-Regular.woff" as="font" type="font/woff" crossorigin="anonymous">
+
+  <script>
+    __Zone_enable_cross_context_check = true;
+    var NGXSTORE_CONFIG = {
+      prefix: 'LANEBSWS_',      // default: 'ngx_'
+      clearType: 'prefix', // default: 'prefix'
+      mutateObjects: true, // default: true
+      debugMode: false,    // you can enable debug logs if you ever meet any bug to localize its source
+      cookiesScope: '',    // what you pass here will actually prepend base domain
+      cookiesCheckInterval: 0, // number in ms describing how often cookies should be checked for changes
+      previousPrefix: 'angular2ws_', // you have to set it only if you were using custom prefix in old version ('angular2ws_' is a default value)
+    };
+  </script>
+<style>@charset "UTF-8";@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local("Roboto"),local("Roboto-Regular"),url(/front/assets/fonts/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");font-display:swap;unicode-range:u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local("Roboto"),local("Roboto-Regular"),url(/front/assets/fonts/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");font-display:swap;unicode-range:u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local("Roboto"),local("Roboto-Regular"),url(/front/assets/fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");font-display:swap;unicode-range:u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-family:Roboto;font-style:normal;font-weight:400;src:local("Roboto"),local("Roboto-Regular"),url(/front/assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");font-display:swap;unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local("Roboto Medium"),local("Roboto-Medium"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local("Roboto Medium"),local("Roboto-Medium"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local("Roboto Medium"),local("Roboto-Medium"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-family:Roboto;font-style:normal;font-weight:500;src:local("Roboto Medium"),local("Roboto-Medium"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");font-display:swap;unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local("Roboto Bold"),local("Roboto-Bold"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0460-052f,u+1c80-1c88,u+20b4,u+2de0-2dff,u+a640-a69f,u+fe2e-fe2f}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local("Roboto Bold"),local("Roboto-Bold"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0400-045f,u+0490-0491,u+04b0-04b1,u+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local("Roboto Bold"),local("Roboto-Bold"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");font-display:swap;unicode-range:u+0100-024f,u+0259,u+1e??,u+2020,u+20a0-20ab,u+20ad-20cf,u+2113,u+2c60-2c7f,u+a720-a7ff}@font-face{font-family:Roboto;font-style:normal;font-weight:700;src:local("Roboto Bold"),local("Roboto-Bold"),url(/front/assets/fonts/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");font-display:swap;unicode-range:u+00??,u+0131,u+0152-0153,u+02bb-02bc,u+02c6,u+02da,u+02dc,u+2000-206f,u+2074,u+20ac,u+2122,u+2191,u+2193,u+2212,u+2215,u+feff,u+fffd}*,html{box-sizing:border-box}html{font-family:Roboto,sans-serif!important;font-size:14px;background-color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;min-width:300px;overflow-x:hidden;overflow-y:scroll;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}body,html{margin:0;padding:0}ebs-root{display:-moz-flex;display:flex;flex-direction:column}body{background-color:#fafafa}</style><link rel="stylesheet" href="/front/styles.988aa6c830befdef45b6.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/front/styles.988aa6c830befdef45b6.css"></noscript></head>
+<body class="new-design">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P467CNK"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <!-- Global loader -->
+  <div id="initial-loader" style="position:fixed;top:0;left:0;width:100%;height:100%;background:#fff;display:flex;align-items:center;justify-content:center;z-index:9999;">
+    <div style="text-align:center;">
+      <div style="width:40px;height:40px;border:4px solid #f3f3f3;border-top:4px solid #007bff;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto 16px;"></div>
+      <div style="font-family:'Roboto',sans-serif;font-size:16px;color:rgb(97,101,128);">Загрузка...</div>
+    </div>
+  </div>
+  <style>
+    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .app-ready #initial-loader { display: none !important; }
+  </style>
+
+  <ebs-root></ebs-root>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+  // Запускаем Yandex Метрику только на нужных доменах
+  const allowedDomains = ["*.lanbook.com"];
+
+  function isAllowedDomain(hostname) {
+    return allowedDomains.some(domain => {
+      if (domain.startsWith("*")) {
+        return hostname.endsWith(domain.slice(1));
+      }
+      return hostname === domain;
+    });
+  }
+
+  if (isAllowedDomain(window.location.hostname)) {
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(6173539, "init", {
+      clickmap:true,
+      trackLinks:true,
+      accurateTrackBounce:true,
+      webvisor:true
+    });
+  }
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/6173539" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script>
+  (function() {
+    if (!window.Ya) {
+      window.Ya = {};
+    }
+    var script = document.createElement('script');
+    script.src = 'https://surveys.yandex.ru/fb/widget.js';
+    script.async = true;
+    script.charset = 'utf-8';
+    script.onload = function() {
+      Ya.Feedback.App.embed(document.body);
+      Ya.Feedback.App.init('58edd9c5-12df-4b21-9c97-eedbcbc536eb');
+        // Ya.Feedback.App.init('6MtjKMuud3sc4qRhVQyTHW', {baseUrl?, forceTheme?, hideHeader?, uid?, lang?, testIds});
+        Ya.Feedback.App.fetch();
+        // Ya.Feedback.App.setDefaultQueryParams({login: 'test'});
+        // Ya.Feedback.App.setActiveFeedbackQueryParams('6MtjKMuud3sc4qRhVQyTHW', {login: 'test'});
+        // Ya.Feedback.App.setPassiveFeedbackQueryParams({login: 'test'});
+          // Ya.Feedback.App.setTheme('light'); // or 'dark'
+          // Ya.Feedback.App.forceTheme('light'); // or 'dark'
+          };
+          document.body.appendChild(script);
+          })();
+</script>
+
+<script src="/front/runtime-es2015.778e6a3ebe2180a9a77e.js" type="module"></script><script src="/front/runtime-es5.778e6a3ebe2180a9a77e.js" nomodule defer></script><script src="/front/polyfills-es5.3ccfcc12ec149bf57aef.js" nomodule defer></script><script src="/front/polyfills-es2015.684f06b2e0e9174b467d.js" type="module"></script><script src="/front/main-es2015.a76071fa2745cd709d1c.js" type="module"></script><script src="/front/main-es5.a76071fa2745cd709d1c.js" nomodule defer></script>
+
+</body></html>
