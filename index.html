@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Информационная среда</title>
+    <!-- Добавьте вот эту строку для подключения дизайна: -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>#netlify-badge,.netlify-badge,[data-netlify-badge],netlify-badge,netlify-drawer,[id*=netlify i],[class*=netlify i],iframe[src*=netlify i],iframe[title*=netlify i]{visibility:hidden!important;opacity:0!important;pointer-events:none!important;z-index:-99999!important;display:none!important}</style>
+    <script>
+      (function() {
+        function removeNetlifyBadge() {
+          try {
+            document.querySelectorAll('body > *:not(#root):not(script):not(style)').forEach(function(el) {
+              var text = (el.textContent || '').toLowerCase();
+              var html = (el.innerHTML || '').toLowerCase();
+              if (
+                text.indexOf('netlify') !== -1 || 
+                html.indexOf('netlify') !== -1 ||
+                el.tagName.toLowerCase().indexOf('netlify') !== -1 ||
+                (el.id && el.id.toLowerCase().indexOf('netlify') !== -1) ||
+                (el.className && typeof el.className === 'string' && el.className.toLowerCase().indexOf('netlify') !== -1)
+              ) {
+                el.remove();
+              }
+            });
+
+            document.querySelectorAll('iframe').forEach(function(ifr) {
+              if (ifr.closest && ifr.closest('#root')) return;
+              var src = (ifr.src || '').toLowerCase();
+              var title = (ifr.title || '').toLowerCase();
+              if (src.indexOf('netlify') !== -1 || title.indexOf('netlify') !== -1) {
+                ifr.remove();
+              }
+            });
+          } catch (e) {}
+        }
+
+        removeNetlifyBadge();
+        window.addEventListener('DOMContentLoaded', removeNetlifyBadge);
+        window.addEventListener('load', removeNetlifyBadge);
+
+        if (window.MutationObserver) {
+          var observer = new MutationObserver(function() {
+            removeNetlifyBadge();
+          });
+          observer.observe(document.documentElement, { childList: true, subtree: true });
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-BffKualF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BKIe34Ks.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
